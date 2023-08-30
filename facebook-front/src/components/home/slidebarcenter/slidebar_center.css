@@ -1,0 +1,10 @@
+.container_center {
+    background: white;
+    position: fixed;
+    z-index: 999;
+    height: calc(100vh - 9%);
+    top: 8.4%;
+    left:  20%;
+    right: 0;
+    overflow-y: scroll;
+}

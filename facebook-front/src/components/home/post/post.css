@@ -1,0 +1,273 @@
+.post {
+    border-radius: 4px;
+    z-index: 999 !important;
+    gap: 2%;
+    width: 60%;
+    margin: 1% 30% 0 8%;
+    border-bottom: 3px #c5c0d5 solid;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.637);
+}
+
+.post_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px 0 0;
+}
+
+.post_top_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.post_profil>img {
+    margin-right: 20px;
+}
+
+.icon_more,
+.icon_closed {
+    color: #8697be;
+    transition: 1s ease;
+}
+
+.icon_more:hover,
+.icon_closed:hover {
+    color: #353646;
+}
+
+.post_top_center_top {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+
+    &:hover {
+        text-shadow: 0 0 1px #8d7eb0;
+        cursor: default;
+    }
+}
+
+.post_center {
+    margin: 5px 0;
+}
+
+.post_img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post_top_center_during {
+    color: blue;
+    cursor: default;
+    font-size: 14px;
+}
+
+.post_title {
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.post_content::first-letter {
+    margin-left: 20px;
+}
+
+
+.post_content {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post_bottom {
+    margin-bottom: 10px;
+    border-bottom: 1px #c5c0d5 solid;
+}
+
+.post_bottom_header,
+.post_bottom_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.post_bottom_header {
+    border-bottom: 1px #c5c0d5 solid;
+}
+
+.liked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.like {
+    font-size: 22px !important;
+}
+
+.ok {
+    color: blue;
+    transition: 1s ease;
+
+    &:hover {
+        color: red;
+        transform: rotateZ(-20deg);
+        cursor: pointer;
+    }
+}
+
+.counter_reaction {
+    color: red;
+    margin-left: 12px;
+}
+
+.ko {
+    color: #8697be;
+    transition: 1s ease;
+
+    &:hover {
+        color: red;
+        transform: rotateZ(-20deg);
+        cursor: pointer;
+    }
+}
+
+
+.share_icons {
+    color: blue;
+    transition: 1s ease;
+
+    &:hover {
+        color: darkblue;
+        transform: rotateZ(10deg);
+        cursor: pointer;
+        text-shadow: 1px 0 1px rgb(32, 32, 77);
+    }
+}
+
+
+.comments {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    color: #b9a0be;
+    margin-left: 10px;
+    transition: 1s ease;
+
+    &:hover {
+        color: rgb(94, 94, 173);
+        transform: rotateZ(-10deg);
+        cursor: pointer;
+        text-shadow: 1px 0 1px rgb(32, 32, 77);
+    }
+}
+
+.post_bottom_footer_left {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(242, 236, 248);
+    padding: 8px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.post_bottom_footer_left .like {
+    margin-right: 10px;
+    transition: 1s ease;
+    
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.post_bottom_footer_left span {
+    border: none;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.commented {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(242, 236, 248);
+    padding: 8px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.commented .like {
+    margin-right: 10px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.commented span {
+    margin-right: 10px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+
+
+.shared {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(242, 236, 248);
+    padding: 8px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}
+
+.shared .share {
+    margin-right: 10px;
+    transition: 1s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(209, 207, 211, 0.952);
+    }
+}

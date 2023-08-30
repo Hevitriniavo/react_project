@@ -1,0 +1,35 @@
+.container_right {
+    background: #aba383;
+    position: fixed;
+    width: 20%;
+    height: calc(100vh - 9%);
+    top: 8.4%;
+    right: 1%;
+    overflow-y: scroll;
+}
+
+.z_index {
+    z-index: 999 !important;
+}
+
+.user_online {
+    border: none;
+    margin: 8px 0 8px 6px;
+    background-color: #aba383;
+    list-style: none;
+    padding: 10px;
+}
+
+.item_list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item_list > img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}

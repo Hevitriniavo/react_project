@@ -1,0 +1,42 @@
+.container_left {
+    background: #aba383;
+    position: fixed;
+    width: 20%;
+    height: calc(100vh - 9%);
+    overflow-y: hidden;
+    
+}
+
+.container_icons {
+    border: none;
+    margin: 8px 0;
+    background-color: #aba383;
+    list-style: none;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.left_profil {
+    margin-right: 10px;;
+}
+
+.icons_left {
+    font-size: 25px !important;
+    color: #ab92b1;
+    margin-right: 10px;
+}
+
+
+.d_flex:hover {
+    box-shadow: 0 0 19px #b4a4d5;
+}
+
+.hr_left {
+    background-color: rebeccapurple;
+    width: 100%;
+    margin-bottom: 3px;
+}

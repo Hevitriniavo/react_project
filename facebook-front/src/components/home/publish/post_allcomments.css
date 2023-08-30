@@ -1,0 +1,37 @@
+.container_publish {
+    position: fixed;
+    left: 320px;
+    right: 320px;
+    top: 20px;
+    z-index: 999;
+    bottom: 20px;
+    background-color: #f0f1f3;
+    transform: 0;
+    transition: 1s ease;
+    overflow-y: scroll;
+}
+
+.translateY100 {
+    transform: translateY(-104%);
+}
+
+.translateY0 {
+    transform: translateY(0);
+    box-shadow: 0 0 10000px rgb(44, 44, 63) !important;
+}
+
+.btn {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    background-color: red;
+}
+
+.none {
+    display: none;
+    transform: translateY(-104%);
+}
+
+.post_all {
+    margin: 20px;
+}
